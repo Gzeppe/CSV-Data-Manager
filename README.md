@@ -20,3 +20,9 @@ This project allows users to **filter, sort, and save CSV data** through a comma
 ---
 
 ## 📂 Project Structure
+CSV-Data-Manager/
+├── data.csv # Sample dataset
+├── filtered_data.csv # Output after filtering
+├── main.py # Main Python script
+├── README.md # Project documentation
+└── .gitignore # Git ignored files
