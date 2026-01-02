@@ -1,29 +1,34 @@
-# 📊 CSV Data Manager
+# 📊 CSV Data Manager — Python CLI Tool
 
-A simple and interactive Python tool for managing CSV files.  
-This project allows users to **filter, sort, and save CSV data** through a command-line interface.
+A command-line tool for loading, filtering, and exporting CSV data. This project focuses on data manipulation, user input validation, and practical workflows commonly found in configuration and data-processing tasks.
 
----
+## Why This Project
+I built this tool to practice working with structured data files, handling user-driven filtering logic, and designing CLI workflows that are resilient to invalid input — similar to internal tools used for data cleanup, configuration management, and reporting.
 
-## 🚀 Features
-- Load CSV data
+## Features
+- Load CSV files into memory
 - Filter rows by column and value
+- Sort and refine datasets
 - Save filtered results to a new CSV file
-- User-friendly prompts and error handling
+- Input validation and user-friendly error handling
 
----
+## Backend / Data Concepts Demonstrated
+- File I/O and structured data processing
+- User input validation and error handling
+- Conditional filtering logic
+- Separation of concerns between data handling and CLI flow
+- Reusable functions for data operations
 
-## 🛠️ Tech Stack
+## Tech Stack
 - Python 3.10+
-- pandas (or built-in modules like csv, os if no external libraries)
+- pandas (for data manipulation and filtering)
+- Standard library modules (`csv`, `os`) where applicable
 
----
-
-## 📂 Project Structure
+## Project Structure
+```text
 CSV-Data-Manager/
 ├── data.csv             # Sample dataset
 ├── filtered_data.csv    # Output after filtering
-├── main.py              # Main Python script
+├── main.py              # Application entry point
 ├── README.md            # Project documentation
-└── .gitignore           # Git ignored files
-
+└── .gitignore
